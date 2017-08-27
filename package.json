@@ -1,0 +1,26 @@
+{
+  "name": "tiny-redux-sessions",
+  "version": "1.0.0",
+  "description": "Add login/logout capabilities to tiny-redux-router",
+  "main": "lib/index.js",
+  "repository": "https://github.com/openroomengine/tiny-redux-sessions",
+  "author": "c0d0g3n <c0d0g3n@gmail.com> (https://github.com/c0d0g3n)",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.8",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.5.10"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "storage-available": "^1.0.0"
+  }
+}
